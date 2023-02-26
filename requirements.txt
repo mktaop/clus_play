@@ -2,3 +2,5 @@ streamlit
 numpy
 joblib
 pickle-mixin
+tensorflow
+keras
