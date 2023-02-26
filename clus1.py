@@ -11,6 +11,7 @@ import numpy as np
 import joblib
 import pickle
 from tensorflow import keras
+from sklearn.cluster import KMeans
 
 with open("clus1model.pkl", "rb") as f:
      model = pickle.load(f)
