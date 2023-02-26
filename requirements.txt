@@ -4,4 +4,4 @@ joblib
 pickle-mixin
 tensorflow
 keras
-sklearn
+scikit-learn
