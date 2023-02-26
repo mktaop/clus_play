@@ -12,7 +12,9 @@ import joblib
 import pickle
 from tensorflow import keras
 
-model = joblib.load('clus1model.joblib')
+with open("clus1model.pkl", "rb") as f:
+     model = pickle.load(f)
+#model = joblib.load('clus1model.joblib')
 
 page_title="Enter Info to see what cluster you belong to!"
 page_icon=":large_blue_diamond:"
