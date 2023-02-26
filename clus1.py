@@ -9,7 +9,7 @@ Created on Sat Feb 25 16:54:55 2023
 import streamlit as st
 import numpy as np
 import joblib
-
+import pickle
 
 model = joblib.load('clus1model.joblib')
 
